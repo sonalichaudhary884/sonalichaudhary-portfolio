@@ -11,7 +11,7 @@ const Home = () => {
         />
 
         <div className="left">
-          <h1>i am sonali</h1>
+          <h1>sonali is very beautiful</h1>
           <a href="" className="btn btn-outline-warning">
             <button>Resume</button>
           </a>
