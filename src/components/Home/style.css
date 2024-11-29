@@ -1,0 +1,22 @@
+.containerhome {
+  height: 100vh;
+  width: 100vw;
+  background-image: url("https://aakash-sharma.netlify.app/static/media/cloudBg.f28b5c6961fd82be839c.png") !important; /* Path to your image */
+  background-size: cover; /* Ensures the image covers the div */
+  background-position: center; /* Centers the image in the div */
+  background-repeat: no-repeat;
+}
+
+.containerimg {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.1rem;
+}
+
+.containerimg :right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: blueviolet;
+}
