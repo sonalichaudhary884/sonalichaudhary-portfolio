@@ -1,5 +1,5 @@
-import "./About.css";
-import Skill from "./skill";
+import { MY_INTRO } from "../../constants";
+import "./style.css";
 
 const About = () => {
   return (
@@ -9,19 +9,9 @@ const About = () => {
         <div class="px-11">
           <div>
             <h4 class="text-3xl"> A bit about me</h4>
-            <p>
-              "i'm a self-taught web developer and Mobile App Developer with
-              experience in designing new features from ideation to production,
-              implementation of wireframes and design flows into high
-              performance software applications. I take into consideration the
-              user experience while writing reusable and efficient code. I
-              passionately combine good design, technology, and innovation in
-              all my projects, which I like to accompany from the first idea to
-              release. Currently, I'm focused on the backend development."
-            </p>
+            <p>{MY_INTRO}</p>
           </div>
 
-          <Skill />
           <div>
             <h4 class="text-3xl">Technologies and Tools</h4>
             <p>

@@ -3,15 +3,15 @@
   margin-right: auto;
   margin-left: auto;
   margin-top: 0.25rem;
+}
 
-  @media (min-width: 640px) {
-    .about {
-      padding-left: 2rem;
-      padding-right: 3rem;
-      margin-top: 0;
-      padding-top: 6rem;
-      padding-bottom: 3rem;
-    }
+@media (min-width: 640px) {
+  .about {
+    padding-left: 2rem;
+    padding-right: 3rem;
+    margin-top: 0;
+    padding-top: 6rem;
+    padding-bottom: 3rem;
   }
 }
 
@@ -20,11 +20,12 @@ h2 {
   font: bold;
   padding: 1rem;
   text-align: center;
-  @media (min-width: 768px) {
-    h2 {
-      padding-left: 0;
-      padding-right: 0;
-    }
+}
+
+@media (min-width: 768px) {
+  h2 {
+    padding-left: 0;
+    padding-right: 0;
   }
 }
 
