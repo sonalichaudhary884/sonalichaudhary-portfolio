@@ -8,3 +8,6 @@ export const MY_INTRO = `
     all my projects, which I like to accompany from the first idea to
     release. Currently, I'm focused on the backend development.
 `;
+export const TECH_TOOLS = ` Using a combination of cutting-edge technologies and reliable
+              open-source software I build user-focused, performant apps and
+              websites for smartphones, tablets, and desktops.`;

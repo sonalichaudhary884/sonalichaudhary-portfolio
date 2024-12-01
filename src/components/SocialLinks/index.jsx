@@ -5,7 +5,8 @@ const SocialLinks = () => {
     {
       name: "Linkedin",
       iconUrl: "https://img.icons8.com/doodle/40/000000/linkedin--v2.png",
-      profileUrl: "",
+      profileUrl:
+        "https://www.linkedin.com/in/sonalichaudhary884?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
     },
     {
       name: "StackOverflow",
@@ -16,7 +17,7 @@ const SocialLinks = () => {
     {
       name: "Github",
       iconUrl: "https://img.icons8.com/doodle/40/000000/github--v1.png",
-      profileUrl: "",
+      profileUrl: "https://github.com/sonalichaudhary884",
     },
     {
       name: "Instagram",

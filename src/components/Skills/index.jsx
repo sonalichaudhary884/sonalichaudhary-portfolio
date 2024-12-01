@@ -1,3 +1,4 @@
+import { hover } from "@testing-library/user-event/dist/hover";
 import React from "react";
 
 const SingleSkill = ({ skill, imageUrl }) => {
@@ -7,12 +8,17 @@ const SingleSkill = ({ skill, imageUrl }) => {
         display: "flex",
         alignItems: "center",
         background: "#ccc",
-        border: "1px solid black",
-        width: "100px",
+        width: "200px",
+        cursor: "pointer",
+        opacity: "1",
+        transform: "none",
+        height: "100px",
       }}
     >
-      <img width={"50px"} height="50px" alt={skill} src={imageUrl} />
-      <p style={{ fontSize: "14px", fontWeight: "600" }}>{skill}</p>
+      <img width={"100px"} height="100px" alt={skill} src={imageUrl} />
+      <p style={{ fontSize: "14px", fontWeight: "400", color: "black" }}>
+        {skill}
+      </p>
     </div>
   );
 };
@@ -22,39 +28,38 @@ const Skills = () => {
     {
       skill: "React",
       imageUrl:
-        "https://cdn.vectorstock.com/i/2000v/78/57/react-icon-in-a-hexagon-vector-36587857.avif",
+        "https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg",
     },
     {
-      skill: "Python",
-      imageUrl: "https://banner2.cleanpng.com/20180412/kye/avffc0w7m.webp",
+      skill: "HTML",
+      imageUrl:
+        "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
     },
     {
-      skill: "C++",
-      imageUrl: "https://banner2.cleanpng.com/20180412/kye/avffc0w7m.webp",
+      skill: "CSS",
+      imageUrl:
+        "	https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain.svg",
     },
     {
-      skill: "C++",
-      imageUrl: "https://banner2.cleanpng.com/20180412/kye/avffc0w7m.webp",
+      skill: "Bootstrap",
+      imageUrl:
+        "	https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-plain.svg",
     },
     {
-      skill: "C++",
-      imageUrl: "https://banner2.cleanpng.com/20180412/kye/avffc0w7m.webp",
+      skill: "Tailwind Css",
+      imageUrl:
+        "https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg",
+    },
+
+    {
+      skill: "Mysql",
+      imageUrl:
+        "	https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSMk3C5ZUO0HUurI0wYU-yK6gpjOwXpwshxA&s",
     },
     {
-      skill: "C++",
-      imageUrl: "https://banner2.cleanpng.com/20180412/kye/avffc0w7m.webp",
-    },
-    {
-      skill: "C++",
-      imageUrl: "https://banner2.cleanpng.com/20180412/kye/avffc0w7m.webp",
-    },
-    {
-      skill: "Python",
-      imageUrl: "https://banner2.cleanpng.com/20180412/kye/avffc0w7m.webp",
-    },
-    {
-      skill: "Golang",
-      imageUrl: "https://banner2.cleanpng.com/20180412/kye/avffc0w7m.webp",
+      skill: "Git",
+      imageUrl:
+        "	https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-plain.svg",
     },
   ];
 
@@ -63,7 +68,7 @@ const Skills = () => {
       style={{
         display: "flex",
         flexWrap: "wrap",
-        // justifyContent: "space-between",
+        justifyContent: "space-between",
         gap: "16px",
       }}
     >
