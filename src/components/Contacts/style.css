@@ -1,0 +1,31 @@
+label {
+  display: block;
+  margin-bottom: 8px;
+  line-height: 28px;
+  font-size: 18px;
+  font-weight: 500;
+  color: #1a202c;
+}
+
+input {
+  background-color: #374151;
+  border: 1px solid #4b5563;
+  color: f9fafb;
+  font-size: 14px;
+  line-height: 20px;
+  border-radius: 8px;
+  display: block;
+  width: 100%;
+  padding: 10px;
+}
+textarea {
+  background-color: #374151;
+  border: 1px solid #4b5563;
+  color: f9fafb;
+  font-size: 14px;
+  line-height: 20px;
+  border-radius: 8px;
+  display: block;
+  width: 100%;
+  padding: 10px;
+}
