@@ -4,7 +4,7 @@ import "./style.css";
 
 const About = () => {
   return (
-    <div class="bg-neutral-800">
+    <div class="bg-neutral-50" id="About">
       <div className="about">
         <h2 class="text-5xl"> About Me</h2>
         <div class="px-11">

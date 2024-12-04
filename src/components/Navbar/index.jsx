@@ -8,16 +8,16 @@ const Navbar = () => {
       <div>
         <ul id="navbar">
           <li>
-            <a href="">Home</a>
+            <a href="#Home">Home</a>
           </li>
           <li>
-            <a href="">About</a>
+            <a href="#About">About</a>
           </li>
           <li>
-            <a href="">Project</a>
+            <a href="#Project">Project</a>
           </li>
           <li>
-            <a href="">Contact</a>
+            <a href="#Contact">Contact</a>
           </li>
         </ul>
       </div>

@@ -8,14 +8,14 @@ const SingleSkill = ({ skill, imageUrl }) => {
         display: "flex",
         alignItems: "center",
         background: "#ccc",
-        width: "200px",
+        width: "120px",
         cursor: "pointer",
         opacity: "1",
         transform: "none",
-        height: "100px",
+        height: "80px",
       }}
     >
-      <img width={"100px"} height="100px" alt={skill} src={imageUrl} />
+      <img width={"80px"} height="80px" alt={skill} src={imageUrl} />
       <p style={{ fontSize: "14px", fontWeight: "400", color: "black" }}>
         {skill}
       </p>

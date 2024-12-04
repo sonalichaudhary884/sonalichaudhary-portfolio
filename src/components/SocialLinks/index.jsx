@@ -30,6 +30,8 @@ const SocialLinks = () => {
     <div class=" flex md:justify-start">
       {allSocialLinks.map((social) => (
         <a
+          target="_blank"
+          rel="noopener noreferrer"
           href={social?.profileUrl}
           class="mr-5 cursor-pointer mt-8 hover:scale-125"
         >

@@ -1,7 +1,8 @@
+import SocialLinks from "../SocialLinks";
 import "./style.css";
 const Contact = () => {
   return (
-    <div class="bg-gray-100 pt-24 md:h-screen">
+    <div class="bg-gray-100 pt-24 md:h-screen" id="Contact">
       <div class="max-w-7xl mx-auto x-4 sm:px-6 lg:px-8 px-4">
         <h2 class="text-5xl font-bold px-4 md:px-0 text-center z-0 text-gray-900">
           Contact
@@ -61,6 +62,7 @@ const Contact = () => {
               "India"
             </a>
             <h1 class="text-3xl font-bold">Social</h1>
+            <SocialLinks />
           </div>
         </div>
       </div>
