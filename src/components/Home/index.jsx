@@ -8,7 +8,7 @@ const Home = () => {
         <div className="containerimg">
           <div class="sm:text-center lg:text-left">
             <h1 class="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl">
-              <span class="block text-black">hi i am sonali </span>
+              <span class="block text-neutral-50">Hi i am sonali </span>
               <span class="block text-blue-500 z-0 lg:inline">
                 {" "}
                 i am front-end developer
