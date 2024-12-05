@@ -5,13 +5,29 @@
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  padding: 0 148px;
 }
 
-.containerimg {
+.inner_container {
+  max-width: 1216px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1.1rem;
+  height: 100%;
+}
+
+.container_left {
+  width: 50%;
+}
+.container_right {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container_right img {
+  width: 100%;
+  height: auto;
 }
 
 .containerimg :right {

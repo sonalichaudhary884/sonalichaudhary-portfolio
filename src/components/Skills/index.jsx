@@ -1,25 +1,11 @@
-import { hover } from "@testing-library/user-event/dist/hover";
 import React from "react";
+import "./style.css";
 
 const SingleSkill = ({ skill, imageUrl }) => {
   return (
-    <div
-      style={{
-        display: "flex",
-        alignItems: "center",
-        background: "#F9FAFB",
-        width: "12rem",
-        cursor: "pointer",
-        opacity: "1",
-        transform: "none",
-        height: "64px",
-        flex: "wrap",
-      }}
-    >
-      <img width={"80px"} height="80px" alt={skill} src={imageUrl} />
-      <p style={{ fontSize: "14px", fontWeight: "400", color: "black" }}>
-        {skill}
-      </p>
+    <div className="skill-container">
+      <img alt={skill} src={imageUrl} />
+      <p>{skill}</p>
     </div>
   );
 };
@@ -65,15 +51,7 @@ const Skills = () => {
   ];
 
   return (
-    <div
-      style={{
-        display: "flex",
-        flexWrap: "wrap",
-        justifyContent: "space-between",
-        gap: "16px",
-        padding: " 10%",
-      }}
-    >
+    <div className="skills-container">
       {skills.map((skillData) => (
         <SingleSkill skill={skillData?.skill} imageUrl={skillData?.imageUrl} />
       ))}

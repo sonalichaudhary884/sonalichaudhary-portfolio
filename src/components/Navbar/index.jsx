@@ -3,8 +3,7 @@ import "./style.css";
 const Navbar = () => {
   return (
     <nav>
-      <div>sona</div>
-
+      <h1 className="brand_title text-blue-500">Sonali</h1>
       <div>
         <ul id="navbar">
           <li>
