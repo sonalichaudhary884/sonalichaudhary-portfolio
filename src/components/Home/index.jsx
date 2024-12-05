@@ -8,20 +8,20 @@ const Home = () => {
         <div className="containerimg">
           <div class="sm:text-center lg:text-left">
             <h1 class="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl">
-              <span class="block text-neutral-50">Hi i am sonali </span>
-              <span class="block text-blue-500 z-0 lg:inline">
+              <span class="block text-black px-4">Hi, i am sonali </span>
+              <span class="block text-blue-500 z-0 lg:inline px-4">
                 {" "}
-                i am front-end developer
+                Front-end developer
               </span>
             </h1>
-            <p class="mt-3 text-base text-black sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
+            <p class="mt-3 text-base text-black sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0 px-5">
               {" "}
               i am working i am front-end full stack developer
             </p>
             <SocialLinks />
-            <div class="mt-5 sm:mt-8 sm:flex sm:justify-center lg-justify-start">
-              <div class="mt-3 sm:mt-0 cursor-pointer w-1/2">
-                <a class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-blue-500 hover:bg-blue-200 md:py-4 md:text-lg md:px-10">
+            <div class="mt-5 sm:mt-8 sm:flex px-5 lg-justify-start ">
+              <div class="mt-3 sm:mt-0 cursor-pointer w-1/2 ">
+                <a class="w-full flex items-center justify-center px-5  border border-transparent text-base font-medium rounded-md text-white bg-blue-500 hover:bg-blue-200 md:py-4 md:text-lg md:px-10">
                   Resume
                 </a>
               </div>

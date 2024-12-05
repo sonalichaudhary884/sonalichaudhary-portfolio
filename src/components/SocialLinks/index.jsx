@@ -33,7 +33,7 @@ const SocialLinks = () => {
           target="_blank"
           rel="noopener noreferrer"
           href={social?.profileUrl}
-          class="mr-5 cursor-pointer mt-8 hover:scale-125"
+          class="mr-0 cursor-pointer mt-8 hover:scale-125 px-5"
         >
           <img alt={social?.name} src={social?.iconUrl} />
         </a>

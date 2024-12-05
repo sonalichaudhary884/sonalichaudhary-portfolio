@@ -7,12 +7,13 @@ const SingleSkill = ({ skill, imageUrl }) => {
       style={{
         display: "flex",
         alignItems: "center",
-        background: "#ccc",
-        width: "120px",
+        background: "#F9FAFB",
+        width: "12rem",
         cursor: "pointer",
         opacity: "1",
         transform: "none",
-        height: "80px",
+        height: "64px",
+        flex: "wrap",
       }}
     >
       <img width={"80px"} height="80px" alt={skill} src={imageUrl} />
@@ -70,6 +71,7 @@ const Skills = () => {
         flexWrap: "wrap",
         justifyContent: "space-between",
         gap: "16px",
+        padding: " 10%",
       }}
     >
       {skills.map((skillData) => (
