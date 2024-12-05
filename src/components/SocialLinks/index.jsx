@@ -1,4 +1,5 @@
 import React from "react";
+import "./style.css";
 
 const SocialLinks = () => {
   const allSocialLinks = [
@@ -27,13 +28,13 @@ const SocialLinks = () => {
   ];
 
   return (
-    <div class=" flex md:justify-start">
+    <div className="social-links">
       {allSocialLinks.map((social) => (
         <a
           target="_blank"
           rel="noopener noreferrer"
           href={social?.profileUrl}
-          class="mr-0 cursor-pointer mt-8 hover:scale-125 px-5"
+          class="socialink hover:scale-125"
         >
           <img alt={social?.name} src={social?.iconUrl} />
         </a>
