@@ -24,14 +24,14 @@ const Contact = () => {
           <div class="w-full flex flex-col md:items-end mt-12 md:mt-6">
             <h1 class="text-3xl font-bold">Email</h1>
             <a
-              href=""
+              href="www.google.com"
               class="mb-12 mt-4 font-semibold text-blue-700 block uppercase"
             >
               sonalichaudhary884@gmail.com
             </a>
             <h1 class="text-3xl font-bold">Address</h1>
             <a
-              href=""
+              href="www.google.com"
               class="mt-4 mb-12 md:text-right font-semibold text-blue-700 block uppercase"
             >
               jhilmil colony, Delhi

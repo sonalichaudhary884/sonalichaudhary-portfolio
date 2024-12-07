@@ -4,11 +4,11 @@ const ProjectCard = ({ imgUrl, name, description }) => {
       style={{ width: "calc(50% - 12px)", minWidth: "550px" }}
       class="bg-white rounded-lg border border-gray-200 shadow-lg dark:bg-gray-800 dark:border=gray-700 my-8"
     >
-      <a href="hello">
+      <a href="www.google.com">
         <img class=" rounded-t-lg w-full" src={imgUrl} />
       </a>
       <div className="p-4">
-        <a href="helo">
+        <a href="www.google.com">
           <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
             {name}
           </h5>
