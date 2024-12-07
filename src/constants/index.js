@@ -1,3 +1,5 @@
+export const FORMS_SPREE_KEY = "xqakoadw";
+
 export const MY_INTRO = `
     i'm a self-taught web developer and Mobile App Developer with
     experience in designing new features from ideation to production,
