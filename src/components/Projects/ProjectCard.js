@@ -5,7 +5,7 @@ const ProjectCard = ({ imgUrl, name, description }) => {
       class="bg-white rounded-lg border border-gray-200 shadow-lg dark:bg-gray-800 dark:border=gray-700 my-8"
     >
       <a href="www.google.com">
-        <img class=" rounded-t-lg w-full" src={imgUrl} />
+        <img alt="img" class=" rounded-t-lg w-full" src={imgUrl} />
       </a>
       <div className="p-4">
         <a href="www.google.com">
