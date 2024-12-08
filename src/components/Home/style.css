@@ -5,7 +5,6 @@
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  padding: 0 148px;
 }
 
 .inner_container {
@@ -14,6 +13,7 @@
   justify-content: space-between;
   align-items: center;
   height: 100%;
+  margin: 0 auto;
 }
 
 .container_left {
@@ -35,4 +35,31 @@
   justify-content: center;
   align-items: center;
   background-color: blueviolet;
+}
+
+/* Desktop */
+@media (max-width: 1024px) {
+  .inner_container {
+    flex-direction: column;
+    justify-content: initial;
+  }
+  .container_left {
+    width: 100%;
+    margin-top: 90px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .container_right {
+    width: 100%;
+    max-width: 700px;
+  }
+}
+
+/* Tablet */
+@media (max-width: 768px) {
+}
+
+/* Mobile */
+@media (max-width: 480px) {
 }
