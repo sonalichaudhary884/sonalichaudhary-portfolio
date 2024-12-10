@@ -15,6 +15,7 @@
   height: 100%;
   margin: 0 auto;
   padding: 0 24px;
+  padding-top: 64px;
 }
 
 .container_left {
@@ -46,7 +47,7 @@
   }
   .container_left {
     width: 100%;
-    margin-top: 90px;
+    padding-top: 24px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -59,9 +60,11 @@
 
 /* Tablet */
 @media (max-width: 768px) {
+  .containerhome {
+    height: fit-content;
+  }
   .home_title {
     font-size: 2.5rem;
-    padding-top: 30px;
   }
   .home_title2 {
     font-size: 2.5rem;

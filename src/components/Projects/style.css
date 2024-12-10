@@ -1,13 +1,19 @@
+#Project {
+  padding: 24px;
+}
 .projects-container {
   display: flex;
   flex-wrap: wrap;
   gap: 24px;
   width: 100%;
+  margin-top: 24px;
 }
 
 .project_card {
   width: calc(50% - 12px);
-  min-width: 550px;
+}
+.project_subhead {
+  margin-top: 48px;
 }
 
 /* Desktop*/
@@ -16,15 +22,20 @@
 
 /*Tablet*/
 @media (max-width: 768px) {
+  .project_card {
+    width: 100%;
+  }
+  .project_subhead {
+    margin-top: 24px;
+    text-align: center;
+  }
   .project_head {
     font-weight: 600;
     font-size: 2.7rem;
-    padding-top: 150px;
   }
 
   .project_subhead {
     font-size: 17px;
-    padding-left: 20px;
   }
 }
 
@@ -39,8 +50,5 @@
     font-size: 1.5rem !important;
     font-weight: 300 !important;
     text-align: center;
-  }
-
-  .project_card {
   }
 }

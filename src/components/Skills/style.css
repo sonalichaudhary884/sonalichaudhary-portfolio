@@ -26,21 +26,20 @@
 /* Desktop*/
 @media (max-width: 1024px) {
   .skill-container {
-    flex-direction: column;
-    justify-content: initial;
+    width: calc(33.33% - 32px);
   }
 }
 
 /*Tablet*/
 @media (max-width: 768px) {
   .skill-container {
-    width: calc(35% - 48px);
+    width: calc(50% - 24px);
   }
 }
 
 /*Mobile*/
 @media (max-width: 480px) {
   .skill-container {
-    width: calc(50% - 24px);
+    width: 100%;
   }
 }

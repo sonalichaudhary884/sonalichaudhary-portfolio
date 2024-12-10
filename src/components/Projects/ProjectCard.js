@@ -1,6 +1,6 @@
 const ProjectCard = ({ imgUrl, name, description }) => {
   return (
-    <div class="bg-white rounded-lg border border-gray-200 shadow-lg dark:bg-gray-800 dark:border=gray-700 my-8 project_card">
+    <div class="bg-white rounded-lg border border-gray-200 shadow-lg dark:bg-gray-800 dark:border=gray-700 project_card">
       <a href="www.google.com">
         <img alt="img" class=" rounded-t-lg w-full" src={imgUrl} />
       </a>

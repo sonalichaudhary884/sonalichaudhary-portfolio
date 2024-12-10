@@ -4,24 +4,17 @@ import "./style.css";
 
 const Contact = () => {
   return (
-    <div class="bg-gray-100 pt-24 md:h-screen" id="Contact">
-      <div class="max-w-7xl mx-auto x-4 sm:px-6 lg:px-8 px-4">
-        <h2 class="text-5xl font-bold px-4 md:px-0 text-center z-0 text-gray-900 contact_head">
+    <div class="bg-gray-100">
+      <div id="Contact" class="max-w-7xl mx-auto x-4">
+        <h2 class="text-5xl font-bold md:px-0 text-center z-0 text-gray-900 contact_head">
           Contact
         </h2>
-        <div>
-          <h4 class="mt-12 text-3xl font-semibold text-blue-500 contact_subhead">
-            Connect with me
-          </h4>
-          <p class="text-gray-500 text-xl contact_text">
-            If you want to know more about me or my work, or if you would just
-            <br />
-            like to say hello, send me a message. I'd love to hear from you.
-          </p>
-        </div>
-        <div class="flex justify-between items-center md:items-stretch flex-col md:flex-row pb-24">
+        <h4 class="text-3xl font-semibold text-blue-500 contact_subhead">
+          Connect with me
+        </h4>
+        <div class="form_container flex justify-between items-center md:items-stretch flex-col md:flex-row">
           <ContactForm />
-          <div class="w-full flex flex-col md:items-end mt-12 md:mt-6">
+          <div class="w-full flex flex-col md:items-end">
             <h1 class="text-3xl font-bold">Email</h1>
             <a
               href="www.google.com"

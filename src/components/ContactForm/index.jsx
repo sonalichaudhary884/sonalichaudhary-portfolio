@@ -7,7 +7,12 @@ function ContactForm() {
   const [state, handleSubmit] = useForm(FORMS_SPREE_KEY);
 
   return (
-    <div class="w-full md:pr-8">
+    <div class="form-section w-full">
+      <p class="text-gray-500 text-xl contact_text">
+        If you want to know more about me or my work, or if you would just like
+        to say hello, send me a message. I'd love to hear from you.
+      </p>
+
       {state?.succeeded ? (
         <div className="thanks-container">
           Thank you for reaching out! I'll get back to you soon.

@@ -2,10 +2,10 @@ import "./style.css";
 
 const Navbar = () => {
   return (
-    <nav>
-      <h1 className="brand_title text-blue-500">Sonali</h1>
-      <div>
-        <ul id="navbar">
+    <nav className="navbar">
+      <div className="navbar_container">
+        <h1 className="brand_title text-blue-500">Sona</h1>
+        <ul className="navbar_list">
           <li>
             <a href="#Home">Home</a>
           </li>
