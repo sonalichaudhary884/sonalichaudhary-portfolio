@@ -59,8 +59,28 @@
 
 /* Tablet */
 @media (max-width: 768px) {
+  .home_title {
+    font-size: 2.5rem;
+    padding-top: 30px;
+  }
+  .home_title2 {
+    font-size: 2.5rem;
+    padding-top: 12px;
+  }
 }
 
 /* Mobile */
 @media (max-width: 480px) {
+  .home_title {
+    text-align: center;
+    font-size: 1.5rem !important;
+  }
+  .home_title2 {
+    text-align: center;
+    font-size: 1.5rem !important;
+  }
+
+  .home_title3 {
+    text-align: center;
+  }
 }

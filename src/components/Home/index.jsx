@@ -6,15 +6,14 @@ const Home = () => {
     <div className="containerhome" id="Home">
       <div className="inner_container">
         <div className="container_left">
-          <h1 class="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl">
+          <h1 class="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl home_title">
             Hi, i am sonali
           </h1>
-          <h1 class="text-blue-500 text-4xl tracking-tight font-extrabold sm:text-5xl md:text-6xl">
+          <h1 class="text-blue-500 text-4xl tracking-tight font-extrabold sm:text-5xl md:text-6xl home_title2">
             Front-end developer
           </h1>
-          <p class="mt-3 text-base text-black sm:mt-5 sm:text-lg sm:max-w-xl md:mt-5 md:text-xl">
-            {" "}
-            i am working i am front-end full stack developer
+          <p class="mt-3 text-base text-black sm:mt-5 sm:text-lg sm:max-w-xl md:mt-5 md:text-xl home_title3">
+            I am working i am front-end full stack developer
           </p>
           <SocialLinks />
 

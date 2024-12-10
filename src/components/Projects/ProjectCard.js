@@ -1,9 +1,6 @@
 const ProjectCard = ({ imgUrl, name, description }) => {
   return (
-    <div
-      style={{ width: "calc(50% - 12px)", minWidth: "550px" }}
-      class="bg-white rounded-lg border border-gray-200 shadow-lg dark:bg-gray-800 dark:border=gray-700 my-8"
-    >
+    <div class="bg-white rounded-lg border border-gray-200 shadow-lg dark:bg-gray-800 dark:border=gray-700 my-8 project_card">
       <a href="www.google.com">
         <img alt="img" class=" rounded-t-lg w-full" src={imgUrl} />
       </a>
