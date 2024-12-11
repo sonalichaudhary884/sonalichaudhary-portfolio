@@ -41,6 +41,10 @@
 
 /* Desktop */
 @media (max-width: 1024px) {
+  .containerhome {
+    height: fit-content;
+  }
+
   .inner_container {
     flex-direction: column;
     justify-content: initial;
@@ -60,9 +64,6 @@
 
 /* Tablet */
 @media (max-width: 768px) {
-  .containerhome {
-    height: fit-content;
-  }
   .home_title {
     font-size: 2.5rem;
   }

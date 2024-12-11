@@ -50,11 +50,13 @@
   .about1 {
     font-weight: 500 !important;
     font-size: 2rem !important;
+    padding-bottom: 30px;
   }
   .about2 {
     text-align: center;
     font-size: 1.5rem !important;
     font-weight: 300;
+    display: none;
   }
 
   .about_tech {

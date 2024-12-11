@@ -15,23 +15,23 @@ const Contact = () => {
         <div class="form_container flex justify-between items-center md:items-stretch flex-col md:flex-row">
           <ContactForm />
           <div class="w-full flex flex-col md:items-end">
-            <h1 class="text-3xl font-bold">Email</h1>
+            <h1 class="text-3xl font-bold e_head">Email</h1>
             <a
               href="www.google.com"
               class="mb-12 mt-4 font-semibold text-blue-700 block uppercase"
             >
               sonalichaudhary884@gmail.com
             </a>
-            <h1 class="text-3xl font-bold">Address</h1>
+            <h1 class="text-3xl font-bold a_head">Address</h1>
             <a
               href="www.google.com"
-              class="mt-4 mb-12 md:text-right font-semibold text-blue-700 block uppercase"
+              class="mt-4 mb-12 md:text-right font-semibold text-blue-700 block uppercase "
             >
-              jhilmil colony, Delhi
+              New market, Banda
               <br></br>
               India
             </a>
-            <h1 class="text-3xl font-bold">Social</h1>
+            <h1 class="text-3xl font-bold n_head">Social</h1>
             <SocialLinks />
           </div>
         </div>

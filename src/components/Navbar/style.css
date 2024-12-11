@@ -58,4 +58,7 @@
 
 /*Mobile*/
 @media (max-width: 480px) {
+  .navbar_list {
+    gap: 8px;
+  }
 }

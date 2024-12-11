@@ -44,11 +44,13 @@
   .project_head {
     font-size: 2rem !important;
     font-weight: 500 !important;
+    padding-bottom: 25px;
   }
 
   .project_subhead {
     font-size: 1.5rem !important;
     font-weight: 300 !important;
     text-align: center;
+    display: none;
   }
 }
